@@ -9,14 +9,14 @@
 
 # print() is used to display something on the screen.
 
-# print("hello")
-# print("Hi im aakansha")
-# print("I am learning python")
+print("hello")
+print("Hi im aakansha")
+print("I am learning python")
 
 # We can also print numbers and calculations.
 
-# print(3)
-# print(2 + 4)
+print(3)
+print(2 + 4)
 
 
 # ============================================================
@@ -37,8 +37,8 @@
 
 # Triple quotes can be used to write text across multiple lines.
 
-# print("""This is a multi-line string.
-# It can span multiple lines.""")
+print("""This is a multi-line string.
+It can span multiple lines.""")
 
 
 # ============================================================
@@ -47,22 +47,22 @@
 
 # A variable is a name used to store a value.
 
-# x = 3
-# y = "Hello, World!"
-# a = 'hello world'
-# A = 10
-# z = 35.6
+x = 3
+y = "Hello, World!"
+a = 'hello world'
+A = 10
+z = 35.6
 
 # Variables can store different types of values.
 
-# apple = "I am an apple"
-# Apple = 34
+apple = "I am an apple"
+Apple = 34
 
-# print(x)
-# print(y)
-# print(a)
-# print(A)
-# print(z)
+print(x)
+print(y)
+print(a)
+print(A)
+print(z)
 
 
 # ============================================================
@@ -71,8 +71,8 @@
 
 # Variable names can contain letters, numbers and underscores.
 
-# age = 18
-# count = 5
+age = 18
+count = 5
 
 # Rules for variable names:
 #
@@ -92,11 +92,11 @@
 
 # 'apple' and 'Apple' are different variable names.
 
-# apple = "I am an apple"
-# Apple = 34
+apple = "I am an apple"
+Apple = 34
 
-# print(apple)
-# print(Apple)
+print(apple)
+print(Apple)
 
 
 # ============================================================
@@ -105,13 +105,13 @@
 
 # The type() function tells us what type of data a variable contains.
 
-# x = 3
-# y = "Hello, World!"
-# z = 35.6
+x = 3
+y = "Hello, World!"
+z = 35.6
 
-# print(type(x))
-# print(type(y))
-# print(type(z))
+print(type(x))
+print(type(y))
+print(type(z))
 
 
 # ============================================================
@@ -120,39 +120,39 @@
 
 # We can assign values to multiple variables at the same time.
 
-# a, b, c = 5, 10, 15
+a, b, c = 5, 10, 15
 
-# print(a)
-# print(b)
-# print(c)
+print(a)
+print(b)
+print(c)
 
 
 # We can also assign the same value to multiple variables.
 
-# a = b = c = 20
+a = b = c = 20
 
-# print(a)
-# print(b)
-# print(c)
+print(a)
+print(b)
+print(c)
 
 
 # ============================================================
 # 9. WORKING WITH VARIABLES
 # ============================================================
 
-# a = 18
-# b = 5
+a = 18
+b = 5
 
-# print(a + b)
+print(a + b)
 
-# c = "Hello"
-# d = "World"
+c = "Hello"
+d = "World"
 
-# print(c + d)
+print(c + d)
 
 # We can also print multiple values together.
 
-# print(a, c)
+print(a, c)
 
 
 # ============================================================
@@ -179,10 +179,10 @@
 
 # An integer is a whole number.
 
-# x = 5
-# x = -5
+x = 5
+x = -5
 
-# print(type(x))
+print(type(x))
 
 
 # ============================================================
@@ -192,17 +192,17 @@
 # A string is text.
 # Strings are written inside quotation marks.
 
-# x = "5"
+x = "5"
 
-# print(type(x))
+print(type(x))
 
 # Notice that 5 and "5" are different types.
 
-# x = 5
-# y = "5"
+x = 5
+y = "5"
 
-# print(type(x))
-# print(type(y))
+print(type(x))
+print(type(y))
 
 
 # ============================================================
@@ -211,11 +211,11 @@
 
 # A float is a number containing a decimal value.
 
-# x = 5.0
-# x = -5.0
-# x = 5.00
+x = 5.0
+x = -5.0
+x = 5.00
 
-# print(type(x))
+print(type(x))
 
 
 # ============================================================
@@ -224,9 +224,9 @@
 
 # A complex number can contain a real and imaginary part.
 
-# x = 5 + 3j
+x = 5 + 3j
 
-# print(type(x))
+print(type(x))
 
 
 # ============================================================
@@ -242,10 +242,10 @@
 #
 # Lists are created using square brackets [].
 
-# x = [1, 2, 3, 4, 4, 2, 1, -34, -56]
+x = [1, 2, 3, 4, 4, 2, 1, -34, -56]
 
-# print(x)
-# print(type(x))
+print(x)
+print(type(x))
 
 
 # ============================================================
@@ -254,11 +254,11 @@
 
 # append() adds an element to the end of a list.
 
-# x = [1, 2, 3, 4]
+x = [1, 2, 3, 4]
 
-# x.append(5)
+x.append(5)
 
-# print(x)
+print(x)
 
 
 # ============================================================
@@ -267,11 +267,11 @@
 
 # remove() removes an element using its VALUE.
 
-# x = [1, 2, 3, 4, 4, 2, 1]
+x = [1, 2, 3, 4, 4, 2, 1]
 
-# x.remove(2)
+x.remove(2)
 
-# print(x)
+print(x)
 
 
 # ============================================================
@@ -280,20 +280,20 @@
 
 # pop() removes an element using its INDEX.
 
-# x = [1, 2, 3, 4, 4, 2, 1]
+x = [1, 2, 3, 4, 4, 2, 1]
 
-# x.pop(4)
+x.pop(4)
 
-# print(x)
+print(x)
 
 
 # ============================================================
 # 19. LISTS CAN CONTAIN STRINGS
 # ============================================================
 
-# y = ["apple", "banana", "cherry"]
+y = ["apple", "banana", "cherry"]
 
-# print(y)
+print(y)
 
 
 # ============================================================
@@ -302,11 +302,11 @@
 
 # Lists are changeable, so we can replace an element.
 
-# y = ["apple", "banana", "cherry"]
+y = ["apple", "banana", "cherry"]
 
-# y[0] = "kiwi"
+y[0] = "kiwi"
 
-# print(y)
+print(y)
 
 
 # ============================================================
@@ -315,17 +315,17 @@
 
 # Python starts indexing from 0.
 
-# y = ["apple", "banana", "cherry"]
+y = ["apple", "banana", "cherry"]
 
-# print(y[0])
-# print(y[1])
-# print(y[2])
+print(y[0])
+print(y[1])
+print(y[2])
 
 
 # Negative indexes can be used to access elements from the end.
 
-# print(y[-1])
-# print(y[-2])
+print(y[-1])
+print(y[-2])
 
 
 # ============================================================
@@ -334,16 +334,16 @@
 
 # A tuple is another type of collection.
 
-# x = (1, 2, 3)
+x = (1, 2, 3)
 
-# print(type(x))
+print(type(x))
 
 
 # A tuple can also be created without brackets.
 
-# x = 1, 2, 3
+x = 1, 2, 3
 
-# print(type(x))
+print(type(x))
 
 
 # ============================================================
@@ -352,9 +352,9 @@
 
 # A set is a collection of values.
 
-# x = {1, 2, 3}
+x = {1, 2, 3}
 
-# print(type(x))
+print(type(x))
 
 
 # ============================================================
@@ -363,9 +363,9 @@
 
 # A dictionary stores data as key-value pairs.
 
-# x = {"a": 1, "b": 2}
+x = {"a": 1, "b": 2}
 
-# print(type(x))
+print(type(x))
 
 
 # ============================================================
@@ -376,11 +376,11 @@
 # True
 # False
 
-# x = True
-# y = False
+x = True
+y = False
 
-# print(type(x))
-# print(type(y))
+print(type(x))
+print(type(y))
 
 
 # ============================================================
@@ -389,9 +389,9 @@
 
 # None represents the absence of a value.
 
-# x = None
+x = None
 
-# print(type(x))
+print(type(x))
 
 
 # ============================================================
@@ -400,53 +400,30 @@
 
 # Lists allow duplicate values.
 
-# a = ["apple", "banana", "cherry", "apple"]
+a = ["apple", "banana", "cherry", "apple"]
 
-# print(a)
+print(a)
 
 
 # remove() removes one matching value at a time.
 
-# a.remove("apple")
+a.remove("apple")
 
-# print(a)
+print(a)
 
 
 # We can remove the next occurrence by calling remove() again.
 
-# a.remove("apple")
+a.remove("apple")
 
-# print(a)
+print(a)
 
 
 # pop() removes an element using its index.
 
-# a.pop(1)
+a.pop(1)
 
-# print(a)
+print(a)
 
 
-# ============================================================
-# PRACTICE
-# ============================================================
 
-# 1. Create a variable called name and store your name in it.
-#
-# 2. Create a variable called age and store your age in it.
-#
-# 3. Print both variables.
-#
-# 4. Create a variable containing a decimal number.
-#    Check its type using type().
-#
-# 5. Create a list containing five items.
-#
-# 6. Print the first item in the list.
-#
-# 7. Change one item in the list.
-#
-# 8. Remove one item using remove().
-#
-# 9. Remove one item using pop().
-#
-# 10. Check the type of your list using type().
